@@ -1,0 +1,249 @@
+@media only screen and (min-width: 1920px) {
+  body {
+    width: 1920px;
+    max-width: 1920px;
+    background-color: #b97e0b;
+    overflow-x: none;
+    margin: auto;
+  }
+  main > div > h1 {
+    color: #fff;
+    font-size: 60pt;
+    margin-left: 21%;
+    animation: moveElement;
+    animation-delay: 1000ms;
+    animation-duration: 500ms;
+  }
+
+  main > h2 {
+    animation: moveElement;
+    animation-delay: 1000ms;
+    animation-duration: 500ms;
+  }
+
+  a {
+    animation: moveElement;
+    animation-delay: 1000ms;
+    animation-duration: 500ms;
+  }
+
+  a > img {
+    animation: moveElement;
+    animation-delay: 1000ms;
+    animation-duration: 500ms;
+  }
+
+  @keyframes moveElement {
+    0% {
+      margin-left: -100%;
+    }
+    60% {
+      margin-left: -15%;
+    }
+    70% {
+      margin-left: -12%;
+    }
+    80% {
+      margin-left: -11%;
+    }
+    90% {
+      margin-left: -10%;
+    }
+    100% {
+      margin-left: -9%;
+    }
+  }
+
+  .bodySite {
+    overflow: auto;
+    overflow-x: hidden;
+    position: fixed;
+    width: 1920px;
+    height: 100vh;
+    background-repeat: no-repeat;
+    opacity: 1;
+  }
+
+  .section1 {
+    overflow: auto;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../IMG/BG.png");
+    background-repeat: no-repeat;
+    background-position-x: -4.5px;
+    opacity: 1;
+  }
+
+  #nomeMary {
+    margin-top: 18%;
+  }
+
+  #sobrenomeMary {
+    margin-left: 11%;
+    font-size: 40pt;
+    margin-top: -1%;
+  }
+
+  #logoInsta {
+    margin-left: 8%;
+    margin-right: 15px;
+  }
+
+  #frase {
+    color: #fff;
+    font-size: 20pt;
+    margin-left: 31%;
+    margin-top: 1%;
+  }
+
+  .section2 {
+    overflow: auto;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../IMG/quemeMari.png");
+    background-repeat: no-repeat;
+    opacity: 1;
+    margin-top: -1px;
+  }
+
+  #queme {
+    margin-top: 8%;
+    font-size: 55pt;
+    margin-left: -50%;
+  }
+
+  #mary {
+    font-size: 55pt;
+    margin-left: -50%;
+  }
+
+  #quemeMary {
+    width: 40%;
+    font-size: 18pt;
+    margin-left: -50%;
+    margin-top: 5%;
+    text-align: justify;
+    color: #fff;
+  }
+
+  .section3 {
+    overflow: auto;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../IMG/bgCards.png");
+    background-repeat: no-repeat;
+    opacity: 1;
+    margin-top: -1px;
+  }
+
+  #cardsCursosTitle {
+    margin-top: 13%;
+    margin-left: auto;
+  }
+
+  .cardSection {
+    width: 75%;
+    margin-top: 2%;
+    margin-left: 3.5%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+
+  .cardCurso {
+    width: 90%;
+    background: #fff;
+    height: 41vh;
+    border-radius: 10px;
+  }
+
+  .cardHeader {
+    height: 22.2vh;
+    background: black;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+
+  #capaWorkshop {
+    background-image: url("../IMG/cardWorkshop.png");
+    background-size: cover;
+  }
+
+  #capaRica {
+    background-image: url("../IMG/curso.png");
+    background-size: cover;
+  }
+
+  #capaMentoria{
+    background-image: url("../IMG/capaMentoria.png");
+    background-size: cover;
+  }
+
+  .titleProd {
+    font-weight: bold;
+    font-size: 17pt;
+    margin-bottom: 0;
+  }
+
+  .descriptionProd {
+    width: 95%;
+    text-align: justify;
+    font-size: 12pt;
+    margin-bottom: 0;
+  }
+
+  .cardFooter {
+    width: 100%;
+    height: 5vh;
+  }
+
+  .section4 {
+    overflow: auto;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../IMG/news.png");
+    background-repeat: no-repeat;
+    opacity: 1;
+    margin-top: -1px;
+    margin-left: 2px;
+  }
+
+  #newsTitle {
+    margin: auto;
+    margin-top: 28%;
+  }
+  .depoimentosTitle {
+    margin-top: 12%;
+    margin-left: 0;
+    font-size: 50pt;
+  }
+  .newsInput {
+    width: 25%;
+    margin-top: 1%;
+  }
+
+  .depoimentos {
+    margin-left: 15%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+
+  .depoimentoElemento {
+    width: 253px;
+  }
+
+  .depoimentoElementoVideo {
+    width: 270px;
+    height: 46vh;
+  }
+
+  .col {
+    flex: 0 0 0%;
+  }
+
+  footer{
+    color: white; 
+    font-size: 10pt; 
+    margin-top: 5%; 
+    margin-bottom: 1%;
+  }
+}

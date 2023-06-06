@@ -1,0 +1,559 @@
+.bodySite {
+  scrollbar-width: thin;
+  scrollbar-color: black transparent;
+}
+
+.bodySite::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+}
+
+.bodySite::-webkit-scrollbar-track {
+  background: transparent;
+  padding: 2px;
+}
+
+.bodySite::-webkit-scrollbar-thumb {
+  background-color: #000;
+}
+
+@media only screen and (min-width: 414px) {
+  @media only screen and (max-width: 415px) {
+    body {
+      width: 414px;
+      max-width: 414px;
+      background-color: #000;
+      overflow-x: none;
+      margin: auto;
+      background-image: url('../IMG/BG5.png');
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
+
+    main > div > h1 {
+      color: #fff;
+      font-size: 60pt;
+      margin-left: 21%;
+      animation: moveElement;
+      animation-delay: 1000ms;
+      animation-duration: 500ms;
+    }
+
+    main > h2 {
+      animation: moveElement;
+      animation-delay: 1000ms;
+      animation-duration: 500ms;
+    }
+
+    a {
+      animation: moveElement;
+      animation-delay: 1000ms;
+      animation-duration: 500ms;
+    }
+
+    a > img {
+      animation: moveElement;
+      animation-delay: 1000ms;
+      animation-duration: 500ms;
+    }
+
+    @keyframes moveElement {
+      0% {
+        margin-left: -100%;
+      }
+      60% {
+        margin-left: -15%;
+      }
+      70% {
+        margin-left: -12%;
+      }
+      80% {
+        margin-left: -11%;
+      }
+      90% {
+        margin-left: -10%;
+      }
+      100% {
+        margin-left: -9%;
+      }
+    }
+
+    .bodySite {
+      overflow: auto;
+      overflow-x: hidden;
+      position: fixed;
+      width: 414px;
+      height: 100vh;
+      background-repeat: no-repeat;
+      opacity: 1;
+    }
+
+    .section1 {
+      background-size: 414px;
+      overflow: auto;
+      width: 100%;
+      height: 100vh;
+      background-image: url("../IMG/capaCelular.png");
+      background-repeat: no-repeat;
+      opacity: 1;
+      overflow-x: hidden;
+    }
+
+    #nomeMary {
+      font-size: 50pt;
+      margin-top: 5%;
+      margin-left: 0;
+    }
+
+    #sobrenomeMary {
+      margin-left: -44%;
+      font-size: 30pt;
+      margin-top: -6%;
+    }
+
+    #logoInsta {
+      margin-left: -50%;
+      margin-right: 15px;
+    }
+
+    #frase {
+      color: #fff;
+      font-size: 20pt;
+      margin-left: 5%;
+      margin-top: 100%;
+    }
+
+    .section2 {
+      background-size: 414px;
+      overflow: auto;
+      width: 100%;
+      height: 100vh;
+      background-image: url("../IMG/quemeMariCelular.png");
+      background-repeat: no-repeat;
+      opacity: 1;
+      margin-top: -1px;
+      background-position-x: 100%;
+      overflow-x: hidden;
+    }
+
+    #queme {
+      margin-top: 0%;
+      font-size: 40pt;
+      margin-left: -50%;
+    }
+
+    #mary {
+      font-size: 32pt;
+      margin-left: -10%;
+    }
+
+    #quemeMary {
+      width: 60%;
+      font-size: 12pt;
+      margin-left: 0%;
+      margin-top: 60%;
+      text-align: justify;
+      color: #fff;
+    }
+
+    .section3 {
+      background-size: 414px;
+      overflow: auto;
+      width: 100%;
+      background-image: url("../IMG/bgCardsCelular.png");
+      background-repeat: no-repeat;
+      opacity: 1;
+      margin-top: -1px;
+      overflow-x: hidden;
+    }
+
+    #cardsCursosTitle {
+      font-size: 35pt;
+      margin-left: auto;
+    }
+
+    .cardSection {
+      width: 85%;
+      margin-left: 3.5%;
+    }
+
+    .cardCurso {
+      width: 100%;
+      background: #fff;
+      height: 46vh;
+      margin-bottom: 10%;
+      border-radius: 10px;
+    }
+
+    .cardHeader {
+      height: 23vh;
+      background: black;
+      width: 100%;
+      border-radius: 10px 10px 0 0;
+    }
+
+    #capaWorkshop {
+      background-image: url("../IMG/cardWorkshop.png");
+      background-size: cover;
+    }
+
+    #capaRica {
+      background-image: url("../IMG/curso.png");
+      background-size: cover;
+    }
+    
+    #capaMentoria{
+      background-image: url("../IMG/capaMentoria.png");
+      background-size: cover;
+    }
+
+    .titleProd {
+      font-weight: bold;
+      font-size: 15pt;
+      margin-bottom: 0;
+    }
+
+    .descriptionProd {
+      width: 95%;
+      text-align: justify;
+      font-size: 10.3pt;
+      margin-bottom: 0;
+    }
+
+    .cardFooter {
+      width: 100%;
+      height: 5vh;
+    }
+
+    .Adquirir {
+      margin-top: 5px;
+      width: 50vw;
+    }
+
+    .section4 {
+      background-size: 414px;
+      overflow: auto;
+      width: 100%;
+      background-image: url("newsCelular.png");
+      background-repeat: no-repeat;
+      opacity: 1;
+      margin-top: -1px;
+      margin-left: 2px;
+      overflow-x: hidden;
+    }
+
+    #newsTitle {
+      margin: auto;
+      margin-top: 28%;
+      font-size: 25pt;
+    }
+
+    .depoimentosTitle {
+      margin-top: 12%;
+      margin-left: 0;
+      font-size: 40pt;
+    }
+
+    .newsInput {
+      width: 90%;
+      margin-top: 1%;
+    }
+    
+    .depoimentos {
+      margin-left: 28%;
+      text-align: center;
+      display: grid;
+      grid-template-columns: auto;
+    }
+
+    .depoimentoElemento {
+      margin-left: -4%;
+      width: 196px;
+    }
+
+    .depoimentoElementoVideo {
+      width: 170px;
+      height: 40vh;
+    }
+    .col {
+      flex: 0 0 0%;
+    }
+
+    footer{
+      color: white; 
+      font-size: 6pt; 
+      margin-top: 5%; 
+      margin-bottom: 25%;
+    }
+  }
+
+}
+
+@media only screen and (min-width: 414px) {
+  @media only screen and (max-width: 1219px) {
+    body {
+      width: 414px;
+      max-width: 414px;
+      background-color: #000;
+      overflow-x: none;
+      margin: auto;
+    }
+
+    main > div > h1 {
+      color: #fff;
+      font-size: 60pt;
+      margin-left: 21%;
+      animation: moveElement;
+      animation-delay: 1000ms;
+      animation-duration: 500ms;
+    }
+
+    main > h2 {
+      animation: moveElement;
+      animation-delay: 1000ms;
+      animation-duration: 500ms;
+    }
+
+    a {
+      animation: moveElement;
+      animation-delay: 1000ms;
+      animation-duration: 500ms;
+    }
+
+    a > img {
+      animation: moveElement;
+      animation-delay: 1000ms;
+      animation-duration: 500ms;
+    }
+
+    @keyframes moveElement {
+      0% {
+        margin-left: -100%;
+      }
+      60% {
+        margin-left: -15%;
+      }
+      70% {
+        margin-left: -12%;
+      }
+      80% {
+        margin-left: -11%;
+      }
+      90% {
+        margin-left: -10%;
+      }
+      100% {
+        margin-left: -9%;
+      }
+    }
+
+    .bodySite {
+      overflow: auto;
+      overflow-x: hidden;
+      position: fixed;
+      width: 414px;
+      height: 100vh;
+      background-repeat: no-repeat;
+      opacity: 1;
+    }
+
+    .section1 {
+      background-size: 414px;
+      overflow: auto;
+      width: 100%;
+      height: 100vh;
+      background-image: url("../IMG/capaCelular.png");
+      background-repeat: no-repeat;
+      opacity: 1;
+      overflow-x: hidden;
+    }
+
+    #nomeMary {
+      font-size: 50pt;
+      margin-top: 5%;
+      margin-left: 0;
+    }
+
+    #sobrenomeMary {
+      margin-left: -44%;
+      font-size: 30pt;
+      margin-top: -6%;
+    }
+
+    #logoInsta {
+      margin-left: -50%;
+      margin-right: 15px;
+    }
+
+    #frase {
+      color: #fff;
+      font-size: 20pt;
+      margin-left: 5%;
+      margin-top: 100%;
+    }
+
+    .section2 {
+      background-size: 414px;
+      overflow: auto;
+      width: 100%;
+      height: 100vh;
+      background-image: url("../IMG/quemeMariCelular.png");
+      background-repeat: no-repeat;
+      opacity: 1;
+      margin-top: -1px;
+      background-position-x: 100%;
+      overflow-x: hidden;
+    }
+
+    #queme {
+      margin-top: 0%;
+      font-size: 40pt;
+      margin-left: -50%;
+    }
+
+    #mary {
+      font-size: 32pt;
+      margin-left: -10%;
+    }
+
+    #quemeMary {
+      width: 60%;
+      font-size: 12pt;
+      margin-left: 0%;
+      margin-top: 60%;
+      text-align: justify;
+      color: #fff;
+    }
+
+    .section3 {
+      background-size: 414px;
+      overflow: auto;
+      width: 100%;
+      background-image: url("../IMG/bgCardsCelular.png");
+      background-repeat: no-repeat;
+      opacity: 1;
+      margin-top: -1px;
+      overflow-x: hidden;
+    }
+
+    #cardsCursosTitle {
+      font-size: 35pt;
+      margin-left: auto;
+    }
+
+    .cardSection {
+      width: 85%;
+      margin-left: 3.5%;
+    }
+
+    .cardCurso {
+      width: 100%;
+      background: #fff;
+      height: 46vh;
+      margin-bottom: 10%;
+      border-radius: 10px;
+    }
+
+    .cardHeader {
+      height: 23vh;
+      background: black;
+      width: 100%;
+      border-radius: 10px 10px 0 0;
+    }
+
+    #capaWorkshop {
+      background-image: url("../IMG/cardWorkshop.png");
+      background-size: cover;
+    }
+
+    #capaRica {
+      background-image: url("../IMG/curso.png");
+      background-size: cover;
+    }
+    
+    #capaMentoria{
+      background-image: url("../IMG/capaMentoria.png");
+      background-size: cover;
+    }
+
+    .titleProd {
+      font-weight: bold;
+      font-size: 15pt;
+      margin-bottom: 0;
+    }
+
+    .descriptionProd {
+      width: 95%;
+      text-align: justify;
+      font-size: 10.3pt;
+      margin-bottom: 0;
+    }
+
+    .cardFooter {
+      width: 100%;
+      height: 5vh;
+    }
+
+    .Adquirir {
+      margin-top: 5px;
+      width: 50vw;
+    }
+
+    .section4 {
+      background-size: 414px;
+      overflow: auto;
+      width: 100%;
+      background-image: url("newsCelular.png");
+      background-repeat: no-repeat;
+      opacity: 1;
+      margin-top: -1px;
+      margin-left: 2px;
+      overflow-x: hidden;
+    }
+
+    #newsTitle {
+      margin: auto;
+      margin-top: 28%;
+      font-size: 25pt;
+    }
+
+    .depoimentosTitle {
+      margin-top: 12%;
+      margin-left: 0;
+      font-size: 40pt;
+    }
+
+    .newsInput {
+      width: 90%;
+      margin-top: 1%;
+    }
+    
+    .depoimentos {
+      margin-left: 28%;
+      text-align: center;
+      display: grid;
+      grid-template-columns: auto;
+    }
+
+    .depoimentoElemento {
+      margin-left: -4%;
+      width: 196px;
+    }
+
+    .depoimentoElementoVideo {
+      width: 170px;
+      height: 40vh;
+    }
+    .col {
+      flex: 0 0 0%;
+    }
+
+    footer{
+      color: white; 
+      font-size: 6pt; 
+      margin-top: 5%; 
+      margin-bottom: 30%;
+    }
+  }
+
+}

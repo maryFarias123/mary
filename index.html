@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Marivania demo</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link rel="stylesheet" href="./CSS/index1920.css" />
+    <link rel="stylesheet" href="./CSS/index1366.css" />
+    <link rel="stylesheet" href="./CSS/index1280.css" />
+    <link rel="stylesheet" href="./CSS/index414.css" />
+    <link rel="stylesheet" href="./CSS/index.css" />
+
+    <style>
+      @font-face {
+        font-family: 'Roxborough CF';
+        src: url('../FONT/RoxboroughCF.ttf');
+      }
+
+      body{
+        font-family: Roxborough CF;
+        background-color: #494949;
+      }
+    </style>
+  </head>
+
+  <center>
+    <body>
+        <div class="modal fade" id="depoimento1" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="./IMG/depoimento.jpeg" width="300"></img>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal fade" id="depoimento2" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="./IMG/depoimento 2.jpeg" width="300"></img>
+                </div>
+              </div>
+            </div>
+          </div>
+      <main class="bodySite">
+        <div class="section1">
+          <h1 id="nomeMary">Marivania</h1>
+          <h1 id="sobrenomeMary">Farias</h1>
+          <!-- redes -->
+          <a href="instagram.com" id="logoInsta">
+            <img
+              src="https://docs.google.com/uc?id=1qOhQzHRpp-DKMoZW8lMwPoFYsrGNNCN6"
+              alt=""
+              width="30"
+            />
+          </a>
+          <a href="facebook.com">
+            <img
+              src="https://docs.google.com/uc?id=1NK18YhsJeB3fPIRAAfFiuW7Bs2FmKIti"
+              alt=""
+              width="30"
+            />
+          </a>
+          <h2 id="frase">"Pequenas atitudes podem mudar sua empresa"</h2>
+        </div>
+
+        <div class="section2">
+          <h1 id="queme">Quem é</h1>
+          <h1 id="mary">Marivania Farias?</h1>
+
+          <p id="quemeMary">
+            Mary Farias é apaixonado por Finanças, Contabilidade e
+            empreendedorismo. Sua especialidade é em Gestão Financeira, com mais
+            de 15 anos atuando com grandes e pequenas empresa sabe que a maior
+            dificuldade das empresárias é organizar o financeiro, acredita que
+            toda empreendedora merece desfrutar do lucro do seu trabalho se
+            pagando primeiro, aumentar seus lucros e criar riqueza, acredita que
+            Lucro é Melhor que Salário.
+          </p>
+        </div>
+
+        <div class="section3">
+          <h1 id="cardsCursosTitle">Cursos & Mentorias</h1>
+
+          <!-- CARDS -->
+
+          <div class="cardSection">
+            <div class="cardCurso" id="workshopBtn" onclick="workshopPage()">
+              <div class="cardHeader" id="capaWorkshop"  onclick="workshopPage()"></div>
+              <div class="cardBody"  onclick="workshopPage()">
+                <p class="titleProd">Workshop Você e o Dinheiro</p>
+                <p class="descriptionProd">
+                  Eu desenvolvi o método RICA, que vai te ajudar a organizar
+                  definitivamente as suas finanças pessoais e empresariais. Você
+                  terá a oportunidade de conhecer o método completo neste
+                  workshop.
+                </p>
+              </div>
+            </div>
+
+            <div class="cardCurso" href="" id="ricaBtn" onclick="ricaPage()">
+              <div class="cardHeader" id="capaRica" onclick="ricaPage()"></div>
+              <div class="cardBody" onclick="ricaPage()">
+                <p class="titleProd">Método Rica</p>
+                <p class="descriptionProd">
+                  Este treinamento foi pensado em quatro etapas, é uma jornada
+                  para que você consiga, não apenas, organizar sua situação
+                  atual, mas também seja capaz de mantê-la em constante
+                  crescimento no futuro.
+                </p>
+              </div>
+            </div>
+
+            <div class="cardCurso" href="" id="mentoriaBtn" onclick="mentoPage()">
+              <div class="cardHeader" id="capaMentoria" onclick="mentoPage()"></div>
+              <div class="cardBody" onclick="mentoPage()">
+                <p class="titleProd">Organize Seu Financeiro e Prospere</p>
+                <p class="descriptionProd">
+                  Mentoria de finanças voltado para mulheres empoderadas e empreendedoras, com a especialista financeira
+                  Mary Farias.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section4">
+          <h1 class="depoimentosTitle">Depoimentos</h1>
+            <div class="depoimentos">
+
+
+                <video class="depoimentoElementoVideo" src="./VIDEOS/Depoimento 1.mp4" controls autoplay muted></video>
+                <img src="./IMG/depoimento.jpeg" class="btn depoimentoElemento" data-toggle="modal" data-target="#depoimento1"></img>
+                <img src="./IMG/depoimento 2.jpeg" class="btn depoimentoElemento" data-toggle="modal" data-target="#depoimento2"></img>
+
+
+            </div>
+
+        </div>
+
+        <footer>
+            &copy; Agente Marketing e Publicidade
+        </footer>
+      </main>
+
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+      <script>
+        let workshop = document.querySelector('#workshopBtn')
+        let rica = document.querySelector('#ricaBtn')
+        let mentoria = document.querySelector('#mentoriaBtn')
+
+        function workshopPage(){
+          let page = window.open('https://evento.blinket.com.br/workshop-voce-e-o-dinheiro?fbclid=PAAaYphedScW3wfm85dE7XCJHHCXCBomeSMqq9Wk1FZe4Vl6gWVW6_j13T24s', '_blank')
+
+          page.focus()
+        }
+        function ricaPage(){
+          let page = window.open('https://chk.eduzz.com/1948110', '_blank')
+
+          page.focus()
+        }
+        function mentoPage(){
+          let page = window.open('https://docs.google.com/forms/d/1xdzuzgjRroWsOKYl6upVn0iIfFs_jwq4JtfEpVLBW6M/edit', '_blank')
+
+          page.focus()
+        }
+      </script>
+    </body>
+  </center>
+</html>
