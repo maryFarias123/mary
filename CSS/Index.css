@@ -11,3 +11,8 @@ body{
 .cardCurso:hover{
   cursor: pointer;
 }
+
+.cardCurso{
+  background-color: #2b293f;
+  color: #FFF;
+}
