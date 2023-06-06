@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Roxborough CF';
+  src: url('../FONT/RoxboroughCF.ttf');
+}
+
+body{
+  font-family: Roxborough CF;
+  background-color: #494949;
+}
+
+.cardCurso:hover{
+  cursor: pointer;
+}
+
+.cardCurso{
+  background-color: #2b293f;
+  color: #FFF;
+}
