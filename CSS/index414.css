@@ -452,6 +452,7 @@
       height: 46vh;
       margin-bottom: 10%;
       border-radius: 10px;
+      padding-top: 57%;
     }
 
     .cardHeader {
@@ -461,27 +462,30 @@
       border-radius: 10px 10px 0 0;
     }
 
-    #capaWorkshop {
-      background-image: url("../IMG/cardWorkshop.png");
+    #workshopBtn {
+      background-image: url("../IMG/cardWorkshopCelualr.png");
       background-size: cover;
     }
 
-    #capaRica {
-      background-image: url("../IMG/curso.png");
+    #ricaBtn {
+      background-image: url("../IMG/cursoCelular.png");
       background-size: cover;
     }
     
-    #capaMentoria{
-      background-image: url("../IMG/capaMentoria.png");
+    #mentoriaBtn{
+      background-image: url("../IMG/capaMentoriaCelular.png");
       background-size: cover;
     }
-
+    
+   .cardBody{
+    color: #b97e0b; 
+  }
     .titleProd {
       font-weight: bold;
       font-size: 15pt;
       margin-bottom: 0;
     }
-
+    
     .descriptionProd {
       width: 95%;
       text-align: justify;

@@ -152,8 +152,12 @@
   .cardCurso {
     width: 90%;
     background: #fff;
-    height: 41vh;
+    height: 43vh;
     border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../IMG/capaMentoria.png");
+    background-size: cover;
   }
 
   .cardHeader {
@@ -163,9 +167,23 @@
     border-radius: 10px 10px 0 0;
   }
 
-  #capaWorkshop {
-    background-image: url("../IMG/cardWorkshop.png");
+  #workshopBtn{
+    background-image: url('../IMG/cardWorkshop.png');
     background-size: cover;
+  }
+
+  #ricaBtn{
+    background-image: url('../IMG/curso.png');
+    background-size: cover;
+  }
+
+  .cardBody{
+    width: 90%;
+    color: #b97e0b;
+    display: flex;
+    flex-direction: column;
+    margin-top: 57%;
+
   }
 
   #capaRica {

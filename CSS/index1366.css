@@ -92,11 +92,12 @@
       background-image: url("../IMG/BG.png");
       background-repeat: no-repeat;
       opacity: 1;
+      background-position-x: -3px;
     }
   
     #nomeMary {
       margin-top: 18%;
-      margin-left: 30%;
+      margin-left: 35%;
     }
   
     #sobrenomeMary {
@@ -167,7 +168,7 @@
     }
   
     .cardSection {
-      width: 70%;
+      width: 80%;
       margin-left: 3.5%;
       display: grid;
       grid-template-columns: auto auto auto;
@@ -177,9 +178,32 @@
       width: 90%;
       background: #fff;
       height: 48vh;
-    border-radius: 10px;
+      border-radius: 10px;
+      background-image: url("../IMG/capaMentoria1366.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+
+    }
+
+    #workshopBtn{
+      background-image: url('../IMG/cardWorkshop1366.png');
+      background-size: cover;
     }
   
+    #ricaBtn{
+      background-image: url('../IMG/curso1366.png');
+      background-size: cover;
+    }
+  
+    .cardBody{
+      width: 95%;
+      color: #b97e0b;
+      display: flex;
+      flex-direction: column;
+      margin-top: 67%;
+  
+    }
+    
     .cardHeader {
       height: 22.5vh;
       background: black;
